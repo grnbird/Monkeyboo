@@ -1,0 +1,111 @@
+html, body{
+    border: none;
+    padding: 0;
+    margin: 0;
+    max-width: 500px;
+} 
+
+.container{
+    width: 500px;
+    height: 700px;
+    border: 2px solid black;
+    background-color: #C5E17A;
+    padding: 0px;
+    position: relative;
+    left: 0;
+    top: 0;       
+}
+
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #C5E17A;
+    border: 0px;
+    padding: 0px;
+}
+
+.food{
+    background-color: #C5E17A;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    border:0px;
+    position: relative;
+    display: block;
+}
+
+img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    border: 0;
+    
+}
+.scoreCard{
+    height: 100px;
+    width: 500px;
+    background-color: #C5E17A; 
+    border: 2px solid black;
+    padding: 0;
+    margin: 0;  
+    
+    
+}
+
+h1{
+    font-size: 25px;
+    padding: 0;    
+    margin: 0; 
+    color: blue;
+    text-align: center;    
+    font-weight: bold;    
+    margin-top:5px;
+}
+
+.startButton{
+    padding: 10px;
+    margin: auto;
+    color: #fff;
+    background-color: #475987;
+    border: none;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    width: 50%;
+    border-radius: 30px;
+    box-shadow: 6px 3px 20px #000000;     
+}
+.startButton:hover{
+    color: #000;
+    background-color: #789574;
+    cursor: pointer;
+}
+
+.banana{
+    width: 60%;
+    height: 60%;
+    display: grid;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.credit{
+    width: 500px;
+    height: auto;
+    text-align: center;    
+    background-color: #fff;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;   
+    
+}
+
+h2{
+    color: #0066FF;    
+}
+span{
+    color: #DA2C43;
+}
